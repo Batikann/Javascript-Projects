@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e49e04f4cd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="collapse">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="textBox" placeholder="Search Github username... "/>
+      <button type="submit" id="btn">Search</button>
+      <div class="main-div">
+         <div class="img-div">
+          <img src="https://smartpro.com.tr/wp-content/uploads/2019/02/github-nedir.png">
+        </div>
+         <div>
+          <p class="name"></p>
+          <p class="bio"></p>
+         </div>
+         <div>
+          <p class="date"></p>
+         </div>
+         <div class="center-div">
+            <ul>
+              <li class="center-li"><span class="title">Repos</span><p class="number" id="repos"></p></li>
+              <li class="center-li"><span class="title">Followers</span><p class="number" id="followers"></p></li>
+              <li class="center-li"><span class="title">Following</span><p class="number" id="following"></p></li>
+            </ul>
+         </div>
+          
+         <div class="footer">
+          <ul class="footer-ul">
+            <li class="footer-li"><i class="fa-solid fa-location-dot"><span class="footer-title" id="location"></span></i></li>
+            <li class="footer-li"><i class="fa-brands fa-twitter"><span class="footer-title" id="twiter"></span></i></li>
+            <li class="footer-li"><i class="fa-sharp fa-solid fa-link"><span class="footer-title" id="link"></span></i></li>
+            <li class="footer-li"><i class="fa-solid fa-building"><span class="footer-title" id="company"></span></i></li>
+          </ul>
+         </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
